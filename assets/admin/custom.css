@@ -1,0 +1,238 @@
+#clock {
+  color: #000;  
+  text-align: center;  
+}
+
+hr {
+    margin-top: 0 !important;    
+}
+
+thead {
+    background: #26a69a !important;
+    color: #fff !important;
+}
+
+table {
+    border-collapse: initial !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.card-header:not([class*=bg-]):not([class*=alpha-]) {
+	padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    background-color: #324148 !important;
+    color: #fff !important;
+}
+
+.card-header {
+    margin-bottom: 30px !important;
+}
+
+.show-image {
+    margin-bottom: 10px;
+}
+
+.datatable-header {
+    padding-top: 0;
+}
+.content-wrapper {
+    overflow: hidden;
+}
+
+
+/*===============================================Pagination========================================*/
+
+#pagination{
+    float: right;
+}
+ul.tsc_pagination li a
+{
+border:solid 1px;
+border-radius:3px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+padding:6px 9px 6px 9px;
+}
+ul.tsc_pagination li
+{
+padding-bottom:1px;
+}
+ul.tsc_pagination li a:hover,
+ul.tsc_pagination li a.current
+{
+color:#FFFFFF;
+box-shadow:0px 1px #EDEDED;
+-moz-box-shadow:0px 1px #EDEDED;
+-webkit-box-shadow:0px 1px #EDEDED;
+}
+ul.tsc_pagination
+{
+padding:0px;
+overflow:hidden;
+font:12px 'Tahoma';
+list-style-type:none;
+}
+ul.tsc_pagination li
+{
+float:left;
+margin:0px;
+padding:0px;
+margin-left:5px;
+}
+ul.tsc_pagination li a
+{
+color:black;
+display:block;
+text-decoration:none;
+padding:7px 10px 7px 10px;
+}
+ul.tsc_pagination li a img
+{
+border:none;
+}
+ul.tsc_pagination li a {
+    color: #0254a2;
+    border-color: #0254a2;
+    background: #F8FCFF;
+}
+ul.tsc_pagination li a:hover, ul.tsc_pagination li a.current {
+    text-shadow: initial;
+    border-color: #0254a2;
+    background: #0254a2;
+    background: -moz-linear-gradient(top, #B4F6FF 1px, #63D0FE 1px, #58B0E7);
+    background: #0254a2;
+}
+h5 {
+    /*font-size: 16px !important;*/
+}
+.flex-right ul{
+    justify-content: flex-end;
+}
+
+ul.tsc_pagination li.active a {
+    background: #0254a2 !important;
+    color: #fff;
+}
+
+/*==================================================================================================================================*/
+
+.modal-footer:not([class*=bg-]) {
+    padding-top: 20px;
+    background: #f1f1f1;
+}
+
+.modal-header:not([class*=bg-]) {
+    padding-bottom: 20px;
+    background: #f1f1f1;
+    color: #000;
+}
+
+.modal-footer:not([class*=bg-]) {
+    padding-top: 20px;
+    background: #f1f1f1;
+}
+
+.modal-header.text {
+    padding: 5px;    
+}
+button.close.test {
+    color: #192124;
+    padding-right: 25px;
+}
+
+.modal-body.text {
+    text-align: center !important;
+    font-weight: 600 !important;
+    background: #f9f9f9 !important;
+    font-size: 20px !important;
+    color: #d40941 !important;
+    font-style: italic !important;
+}
+
+.nav-tabs-solid[class*=bg-]:not(.bg-light):not(.bg-white):not(.bg-transparent) .nav-item.show .nav-link.active, .nav-tabs-solid[class*=bg-]:not(.bg-light):not(.bg-white):not(.bg-transparent) .nav-link.active {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.59) !important;
+}
+
+span.add_product{
+    color: red;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+
+
+
+
+.img-Hover-dlt {
+    position: relative;
+}
+.img-Hover-dlt:hover .trash {
+    display: block;
+}
+.trash {
+    display: none;
+    position: absolute;
+    font-size: 25px;
+    background: #0000009e;
+    width: 100%;
+    height: 100%;
+}
+.img-Hover-dlt i {
+    color: #fff;
+    position: absolute;
+    font-size: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.inputLeftOverlay {
+    position: relative;
+}
+p.inputOverlay {
+    position: absolute;
+    background: #fff;
+    height: 34px;
+    margin-bottom: 0;
+    left: 1px;
+    top: 1px;
+    line-height: 37px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-right: 1px solid #ddd;
+    padding: 0 10px;
+}
+.inputLeftOverlay input[type='text'] {
+    padding-left: 96px;
+}
+
+.btn.active:focus, .btn:active:focus, .btn:focus {
+    outline: none !important;
+    outline-offset: 0 !important;
+}
+
+.btn:focus, .btn:hover {
+    color: #fff !important;
+}
+
+.bootstrap-tagsinput input {
+    padding: 2px 5px !important;
+}
+
+.bootstrap-tagsinput {
+    box-shadow: none !important;
+}
+

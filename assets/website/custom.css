@@ -1,0 +1,34 @@
+.modal-body.text-center.text {
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+p.cart-text {
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    color: #404040;
+    margin-bottom: 0;
+    margin: 10px;
+}
+
+input.form-control.blog_image {
+    height: auto;
+}
+
+.modal-dialog.custom_width {
+    max-width: 700px !important;
+}
+
+.modal-dialog.custom-width {
+    max-width: 840px !important;
+}
+
+.table thead th {
+    border-bottom: 0px solid #dee2e6 !important;
+}
+
+.pro_blog img.d-flex.mr-3 {
+    width: 80px;
+}
